@@ -49,8 +49,8 @@ python 3.9.6, activate, and install project with pip. Eg:
 
 ## Code Example
 
-Once virtual environment you can run the following 
-commands to test the functionality the problems:
+Once inside the virtual environment you can run the following commands to test 
+the functionality the problems:
 
 `$ python math_problem.py -x 25 -y 45`
 
