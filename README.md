@@ -30,35 +30,17 @@ code-questions-python.pdf file found in the root of this repo:
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able 
-to figure out **how** your project solves their problem by looking at the code 
-example. Make sure the API you are showing off is obvious, and that your code 
-is short and concise.
+Everything in this project was developed using python 3.9.6, so assuming you 
+have that version set to your system's python you can run the following 
+commands to test the functionality the problems:
 
-## Motivation
+`$ python math_problem.py -x 25 -y 45`
 
-A short description of the motivation behind the creation and maintenance of 
-the project. This should explain **why** the project exists.
+`$ python oo_problem.py -n 25`
 
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the 
-reference docs can be added to the README. For medium size to larger projects 
-it is important to at least provide a link to where the API reference docs live.
+`$ python file_problem.py -p 'putant quaeque' -fp sample.txt`
 
 ## Tests
 
 Describe and show how to run the tests with code examples.
 
-## Contributors
-
-Let people know how they can dive into the project, include important links to 
-things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
