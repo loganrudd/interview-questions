@@ -33,14 +33,7 @@ code-questions-python.pdf file found in the root of this repo:
 5. File questions - Give a Comma Separated File (csv) and a column number (zero
    being the left most column) return the sum of all the entries in that column
    Assume that all the entries in the CSV are numbers, and that there are no 
-   column headers. 
-   For example, if the file looks like this:
-      1,2,3,4
-      5,6,7,8
-      9,10,11,12
-   the sum of column 0 will be 1 + 5 + 9 = 15 and the sum of column 2 will be 
-   3 + 7 + 11 = 21
-`
+   column headers.
 
 ## Instalation
 
