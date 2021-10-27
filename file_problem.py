@@ -59,6 +59,8 @@ def phrase_finder(phrase, text_file):
                 start_index = text.index(phrase_list[0])
                 while len(phrase_list) > 0:
             '''
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-p', '--phrase', type=str, required=True,
