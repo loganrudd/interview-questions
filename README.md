@@ -57,9 +57,10 @@ commands to test the functionality the problems:
 `$ python oo_problem.py -n 25`
 
 `$ python file_problem.py -p 'putant quaeque' -fp data/sample.txt`
+
 `$ python file_problem_two.py -x 2 -fp data/sample.csv`
 
-`$ python chess_twist.py -i 'u2, l1, r2, d3'`
+`$ python chess_game/chess_twist.py -i 'u2, l1, r2, d3'`
 
 
 ## Tests
