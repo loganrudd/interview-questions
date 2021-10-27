@@ -26,12 +26,23 @@ code-questions-python.pdf file found in the root of this repo:
    inputs. The function returns True if the phrase is found in the document and
    returns False otherwise. Note: Newline characters will not be included in 
    the phrase.
+`
+
+## Instalation
+
+Clone project, cd to root of directory, create a new virtual environment with 
+python 3.9.6, activate, and install project with pip. Eg:
+
+`conda create -n test python=3.9.6`
+
+`conda activate test`
+
+`pip install .`
 
 
 ## Code Example
 
-Everything in this project was developed using python 3.9.6, so assuming you 
-have that version set to your system's python you can run the following 
+Once virtual environment you can run the following 
 commands to test the functionality the problems:
 
 `$ python math_problem.py -x 25 -y 45`
@@ -40,7 +51,11 @@ commands to test the functionality the problems:
 
 `$ python file_problem.py -p 'putant quaeque' -fp sample.txt`
 
+`$ python chess_twist.py -i 'u2, l1, r2, d3'`
+
+
 ## Tests
 
-Describe and show how to run the tests with code examples.
+To run unit_tests for chess_game from root of directory simply run:
 
+`python unit_tests/test_chess.py`
